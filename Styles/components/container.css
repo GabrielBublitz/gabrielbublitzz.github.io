@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    margin: .5rem;
+    padding: .5rem;
+    width:fit-content;
+    align-items: center;
+    justify-content: center;
+}
