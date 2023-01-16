@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-/* Estudar propriedades */
-
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +8,7 @@
     border: 0;
     text-decoration: none;
     list-style: none;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
@@ -22,12 +21,9 @@ body{
     height: 100vh;
     font-family: poppins, sans-serif;
     font-size: 0.88rem;
-    background-color: var(--color-extra-dark);
+    background: var(--color-extra-dark);
     user-select: none;
     overflow-x: hidden;
-}
-
-a{
     color: var(--color-white);
 }
 

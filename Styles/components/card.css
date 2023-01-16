@@ -1,6 +1,5 @@
 .card{
     display: flex;
-    padding: var(--padding-1);
+    padding: 10px;
     border-radius: var(--border-radius-5);
-    background-color: var(--color-dark);
 }

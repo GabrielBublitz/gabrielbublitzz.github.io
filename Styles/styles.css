@@ -2,6 +2,7 @@
 @import url("/styles/components/btn.css");
 @import url("/styles/components/card.css");
 @import url("/styles/components/container.css");
+@import url("/styles/components/navbar.css");
 /* ----------- ROOT VARAIBLES ----------- */
 
 :root{
@@ -12,11 +13,11 @@
     --color-white: rgb(248, 248, 248);
     --color-info-dark: #7d8da1;
     --color-info-light: #dce1eb;
-    --color-dark: #282a36;
-    --color-extra-dark: #1d1e27;
+    --color-dark: #212225;
+    --color-extra-dark: #121314;
     --color-light: rgba(132, 139, 200, 0.18);
     --color-primary-variant: #111e88;
-    --color-dark-variant: #4a4d5e;
+    --color-green-variant: #41a14e;
     --color-background: #f6f6f9;
 
     --card-border-radius: 2rem;
