@@ -3,6 +3,10 @@
 @import url("/styles/components/card.css");
 @import url("/styles/components/container.css");
 @import url("/styles/components/navbar.css");
+@import url("/styles/components/container-tabs.css");
+@import url("/styles/components/container-content.css");
+@import url("/styles/components/icons.css");
+@import url("/styles/components/columns.css");
 /* ----------- ROOT VARAIBLES ----------- */
 
 :root{

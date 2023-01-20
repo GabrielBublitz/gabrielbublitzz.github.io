@@ -1,0 +1,14 @@
+.container-tabs {
+    height: 100%;
+    background-color: var(--color-light);
+    border-radius: var(--border-radius-5);
+    padding: var(--padding-4);
+}
+
+.knowledge{
+    display: none;
+}
+
+.projects{
+    display: none;
+}
