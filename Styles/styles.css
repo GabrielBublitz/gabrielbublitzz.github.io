@@ -7,9 +7,10 @@
 @import url("/styles/components/container-content.css");
 @import url("/styles/components/icons.css");
 @import url("/styles/components/columns.css");
+@import url("/styles/components/perfil.css");
 /* ----------- ROOT VARAIBLES ----------- */
 
-:root{
+:root {
     --color-primary: #7380ec;
     --color-danger: #ff7782;
     --color-success: #41f1b6;
@@ -21,7 +22,7 @@
     --color-extra-dark: #121314;
     --color-light: rgba(132, 139, 200, 0.18);
     --color-primary-variant: #111e88;
-    --color-green-variant: #41a14e;
+    --color-green-variant: #3ec550;
     --color-background: #f6f6f9;
 
     --card-border-radius: 2rem;
@@ -39,4 +40,3 @@
 
     --box-shadow: 0 2rem 3rem var(--color-light);
 }
-

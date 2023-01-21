@@ -1,0 +1,45 @@
+.name {
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: justify;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 65%;
+    transition: .4s;
+    border: 3px var(--color-light) solid;
+}
+
+.profile-photo:hover {
+    width: 70%;
+    transition: .4s;
+}
+
+.list-items {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+}
+
+.list-items span,
+a {
+    margin-left: 5px;
+}
+
+.list-items a {
+    color: var(--color-white);
+}
+
+.list-items a:hover {
+    color: var(--color-green-variant);
+    text-decoration: underline;
+}
+
+.mini-icons {
+    fill: var(--color-info-dark);
+    height: 20px;
+    width: 20px;
+}
