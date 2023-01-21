@@ -33,3 +33,7 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
+
+nav a{
+    cursor: pointer;
+}

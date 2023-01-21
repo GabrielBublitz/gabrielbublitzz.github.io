@@ -6,10 +6,14 @@
     padding: var(--padding-4);
 }
 
-.knowledge{
+.about{
     display: none;
 }
 
 .projects{
+    display: none;
+}
+
+.contact{
     display: none;
 }

@@ -47,14 +47,22 @@
                 <header class="main-header card">
                     <nav>
                         <ul>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Knowledge</a></li>
-                            <li><a href="">Projects</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a onclick="swtichTab('about')">About</a></li>
+                            <li><a onclick="swtichTab('knowledge')">Knowledge</a></li>
+                            <li><a onclick="swtichTab('projects')">Projects</a></li>
+                            <li><a onclick="swtichTab('contact')">Contact</a></li>
                         </ul>
                     </nav>
                 </header>
                 <div class="container-tabs about">
+                    <div class="container-title">
+                        <p>About</p>
+                    </div>
+                    <div class="container container-icons">
+
+                    </div>
+                </div>
+                <div class="container-tabs knowledge">
                     <div class="container-title">
                         <p>Technologies</p>
                     </div>
@@ -220,17 +228,27 @@
                         </svg>
                     </div>
                 </div>
-                <div class="container-tabs knowledge">
+                <div class="container-tabs projects">
+                    <div class="container-title">
+                        <p>Projects</p>
+                    </div>
                     <div class="container-content">
 
                     </div>
                 </div>
-                <div class="container-tabs projects">
+                <div class="container-tabs contact">
+                    <div class="container-title">
+                        <p>Contact</p>
+                    </div>
+                    <div class="container-content">
 
+                    </div>
                 </div>
             </div>
         </section>
     </div>
 </body>
+
+<script src="/scripts/tabs-control.js"></script>
 
 </html>
