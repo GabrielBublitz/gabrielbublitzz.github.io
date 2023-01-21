@@ -14,6 +14,7 @@
 
 .profile-photo:hover {
     width: 70%;
+    border-color: var(--color-green-variant);
     transition: .4s;
 }
 
@@ -39,7 +40,7 @@ a {
 }
 
 .mini-icons {
-    fill: var(--color-info-dark);
+    fill: var(--color-green-variant);
     height: 20px;
     width: 20px;
 }
