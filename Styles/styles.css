@@ -8,6 +8,8 @@
 @import url("/styles/components/icons.css");
 @import url("/styles/components/columns.css");
 @import url("/styles/components/perfil.css");
+@import url("/styles/components/main-form.css");
+
 /* ----------- ROOT VARAIBLES ----------- */
 
 :root {
@@ -21,8 +23,10 @@
     --color-dark: #212225;
     --color-extra-dark: #121314;
     --color-light: rgba(132, 139, 200, 0.18);
-    --color-primary-variant: #111e88;
-    --color-green-variant: #3ec550;
+    --color-primary-variant: rgb(0, 195, 255);
+    --color-green: #3ec550;
+    --color-green-variant-1: #59c767;
+    --color-green-variant-2: #74d481;
     --color-background: #f6f6f9;
 
     --card-border-radius: 2rem;
