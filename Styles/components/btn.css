@@ -1,32 +1,10 @@
 .btn {
-    display: flex;
     margin: 5px;
     padding: .8rem 1.4rem;
     border-radius: var(--border-radius-3);
     font-size: 1.2rem;
     width: 30%;
-    background-color: transparent;
-    color: var(--color-info-light);
     font-weight: 600;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn::after{
-    content: '';
-    width: 100%;
-    height: 3px;
-    background: var(--color-dark-variant);
-    position: absolute;
-    left:0;
-    bottom: -6px;
-    transition: .5s;
-}
-
-@media screen and (min-width: 1600px){
-    .btn{
-        font-size: 1rem;
-    }
 }
 
 @media screen and (min-width: 1600px){
