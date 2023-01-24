@@ -1,0 +1,6 @@
+h2::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    
+}

@@ -1,4 +1,4 @@
-var previousTab = document.getElementsByClassName("knowledge")[0];
+var previousTab = document.getElementsByClassName("about")[0];
 
 function swtichTab(tab) {
     console.log(previousTab);
