@@ -9,6 +9,7 @@
 @import url("/styles/components/columns.css");
 @import url("/styles/components/perfil.css");
 @import url("/styles/components/main-form.css");
+@import url("/styles/components/working.css");
 
 /* ----------- ROOT VARAIBLES ----------- */
 
@@ -16,7 +17,7 @@
     --color-primary: #7380ec;
     --color-danger: #ff7782;
     --color-success: #41f1b6;
-    --color-warning: #ffbb55;
+    --color-warning: #ff9741;
     --color-white: rgb(248, 248, 248);
     --color-info-dark: #7d8da1;
     --color-info-light: #dce1eb;
