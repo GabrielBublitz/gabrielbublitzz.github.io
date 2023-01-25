@@ -1,15 +1,15 @@
-@import url("/styles/components/main-section.css");
-@import url("/styles/components/btn.css");
-@import url("/styles/components/card.css");
-@import url("/styles/components/container.css");
-@import url("/styles/components/navbar.css");
-@import url("/styles/components/container-tabs.css");
-@import url("/styles/components/container-content.css");
-@import url("/styles/components/icons.css");
-@import url("/styles/components/columns.css");
-@import url("/styles/components/perfil.css");
-@import url("/styles/components/main-form.css");
-@import url("/styles/components/working.css");
+@import url("components/main-section.css");
+@import url("components/btn.css");
+@import url("components/card.css");
+@import url("components/container.css");
+@import url("components/navbar.css");
+@import url("components/container-tabs.css");
+@import url("components/container-content.css");
+@import url("components/icons.css");
+@import url("components/columns.css");
+@import url("components/perfil.css");
+@import url("components/main-form.css");
+@import url("components/working.css");
 
 /* ----------- ROOT VARAIBLES ----------- */
 
