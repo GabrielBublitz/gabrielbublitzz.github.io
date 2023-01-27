@@ -6,6 +6,10 @@
     padding: var(--padding-4);
 }
 
+.carrer{
+    display: none;
+}
+
 .knowledge{
     display: none;
 }

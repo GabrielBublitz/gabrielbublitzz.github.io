@@ -1,12 +1,15 @@
 var previousTab = document.getElementsByClassName("about")[0];
 
-function swtichTab(tab) {
-    console.log(previousTab);
-
+function switchTab(tab) {
     switch (tab) {
         case "about":
             previousTab.style.display = "none";
             previousTab = document.getElementsByClassName("about")[0];
+            previousTab.style.display = "block";
+        break;
+        case "carrer":
+            previousTab.style.display = "none";
+            previousTab = document.getElementsByClassName("carrer")[0];
             previousTab.style.display = "block";
         break;
         case "knowledge":
