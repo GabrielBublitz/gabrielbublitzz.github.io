@@ -48,6 +48,12 @@
     justify-content: center;
 }
 
+.container-carrer{
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-flex-column{
     display: flex;
     flex-direction: column;

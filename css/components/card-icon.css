@@ -1,0 +1,26 @@
+.card-icon{
+    width: 192px;
+    height: fit-content;
+    background-color: var(--color-dark);
+    align-items: center;
+    margin: 10px;
+    padding: 0px 0px 10px 0px;
+}
+
+.icon-test{
+    display: flex;
+    overflow: hidden;
+    height: 128px;
+    width: 100%;
+    justify-content: center;
+    border-radius: var(--border-radius-5) var(--border-radius-5) 0px 0px;
+}
+
+.icon-test img {}
+
+.card-title{
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    text-align: center;
+}

@@ -1,16 +1,16 @@
 @import url("components/main-section.css");
 @import url("components/btn.css");
 @import url("components/card.css");
-@import url("components/container.css");
 @import url("components/navbar.css");
 @import url("components/container-tabs.css");
 @import url("components/container-content.css");
 @import url("components/icons.css");
+@import url("components/container.css");
 @import url("components/columns.css");
 @import url("components/main-form.css");
 @import url("components/working.css");
 @import url("components/perfil.css");
-
+@import url("components/card-icon.css");
 /* ----------- ROOT VARAIBLES ----------- */
 
 :root {
