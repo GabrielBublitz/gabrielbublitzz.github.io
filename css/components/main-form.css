@@ -50,6 +50,7 @@
 
 .btn-form:hover {
     background-color: var(--color-green-variant-1);
+    cursor: pointer;
 }
 
 .btn-form:focus {
