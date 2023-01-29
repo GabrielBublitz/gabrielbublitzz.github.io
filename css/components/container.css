@@ -73,3 +73,12 @@
 .container-text p{
     font-size: 25px;
 }
+
+.container-full{
+    height: 100%;
+    width: 100%;
+}
+
+.container-flex-start{
+    align-content:flex-start;
+}

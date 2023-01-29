@@ -16,8 +16,6 @@
     border-radius: var(--border-radius-5) var(--border-radius-5) 0px 0px;
 }
 
-.icon-test img {}
-
 .card-title{
     width: 100%;
     height: fit-content;
