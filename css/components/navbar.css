@@ -37,3 +37,7 @@ nav ul li a:hover::after{
 nav a{
     cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+    
+}

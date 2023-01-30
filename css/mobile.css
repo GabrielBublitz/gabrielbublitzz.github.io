@@ -1,0 +1,80 @@
+@media screen and (max-width: 600px) {
+    .container {
+        display: block;
+    }
+
+/* Remove */
+    .main-header {
+        display: none;
+    }
+
+    .list {
+        display: none;
+    }
+
+/* Remove */
+    .col-1, .col-2, .col-3,
+    .col-4, .col-5, .col-6,
+    .col-7, .col-8, .col-9,
+    .col-10 {
+        
+    }
+
+    .main-section{
+        width: 100%;
+        padding: 0;
+    }
+
+    .container-perfil{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .container-image{
+        margin-top: 1rem;
+        height: fit-content;
+    }
+
+    .profile-photo{
+        width: 30%;
+    }
+
+    .profile-photo:hover{
+        width: 30%;
+    }
+
+    .perfil-mobile{
+        height: 25%;
+    }
+
+    .perfil-mobile-1{
+        height: 75%;
+    }
+
+    .name{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .container-tabs{
+        padding: 7px;
+    }
+
+    .container-text{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .container-text h2{
+        display: none;
+    }
+
+    .container-title{
+        padding: 5px;
+    }
+
+    .container-title h1{
+        font-size: 25px;
+    }
+}
