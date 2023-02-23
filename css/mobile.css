@@ -1,80 +1,100 @@
 @media screen and (max-width: 600px) {
     .container {
         display: block;
+        height: auto;
     }
 
-/* Remove */
     .main-header {
         display: none;
     }
 
-    .list {
-        display: none;
-    }
-
-/* Remove */
-    .col-1, .col-2, .col-3,
-    .col-4, .col-5, .col-6,
-    .col-7, .col-8, .col-9,
-    .col-10 {
-        
-    }
-
-    .main-section{
+    .main-section {
         width: 100%;
         padding: 0;
     }
 
-    .container-perfil{
+    .main-section {
+        height: max-content;
+    }
+
+    .container-perfil {
+        display: block;
+    }
+
+    .container-image {
+        height: 56%;
+    }
+
+    .profile-photo {
+        width: 30%;
+    }
+
+    .profile-photo:hover {
+        width: 30%;
+    }
+
+    .name {
+        padding: 5px 10px;
+    }
+
+    .list {
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
+        padding: 5px 10px;
     }
 
-    .container-image{
-        margin-top: 1rem;
-        height: fit-content;
+    .list-items:nth-child(1),
+    .list-items:nth-child(2) {
+        display: none;
     }
 
-    .profile-photo{
-        width: 30%;
-    }
-
-    .profile-photo:hover{
-        width: 30%;
-    }
-
-    .perfil-mobile{
-        height: 25%;
-    }
-
-    .perfil-mobile-1{
-        height: 75%;
-    }
-
-    .name{
+    .name {
         font-size: 2rem;
         text-align: center;
     }
 
-    .container-tabs{
-        padding: 7px;
+    .container-tabs {
+        padding: 18px 10px;
+        display: block;
+        margin-bottom: 20px;
     }
 
-    .container-text{
+    .container-text {
         width: 100%;
         margin: 0px;
     }
 
-    .container-text h2{
+    .container-text p {
+        font-size: 20px;
+    }
+
+    .container-text h2 {
         display: none;
     }
 
-    .container-title{
-        padding: 5px;
+    .container-title {
+        padding: .5rem;
     }
 
-    .container-title h1{
+    .container-title h1 {
         font-size: 25px;
+    }
+
+    .carrer {
+        background: transparent;
+    }
+
+    /* Col */
+
+    .col-5{
+        width: 100%;
+        height: auto;
+    }
+
+    /* Carrer */
+
+    .card-icon {
+        width: auto;
+        display: inline-block;
     }
 }
