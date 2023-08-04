@@ -1,100 +1,133 @@
 @media screen and (max-width: 600px) {
-    .container {
-        display: block;
-        height: auto;
-    }
+  .-infotabs {
+    gap: 25px;
+  }
 
-    .main-header {
-        display: none;
-    }
+  .container {
+    display: block;
+    height: auto;
+  }
 
-    .main-section {
-        width: 100%;
-        padding: 0;
-    }
+  .main-header {
+    display: none;
+  }
 
-    .main-section {
-        height: max-content;
-    }
+  .main-section {
+    width: 100%;
+    padding: 0;
+  }
 
-    .container-perfil {
-        display: block;
-    }
+  .main-section {
+    height: max-content;
+  }
 
-    .container-image {
-        height: 56%;
-    }
+  .container-perfil {
+    display: block;
+  }
 
-    .profile-photo {
-        width: 30%;
-    }
+  .container-image {
+    height: 56%;
+  }
 
-    .profile-photo:hover {
-        width: 30%;
-    }
+  .profile-photo {
+    width: 30%;
+  }
 
-    .name {
-        padding: 5px 10px;
-    }
+  .profile-photo:hover {
+    width: 30%;
+  }
 
-    .list {
-        display: flex;
-        justify-content: center;
-        padding: 5px 10px;
-    }
+  .name {
+    padding: 5px 10px;
+  }
 
-    .list-items:nth-child(1),
-    .list-items:nth-child(2) {
-        display: none;
-    }
+  .list {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+  }
 
-    .name {
-        font-size: 2rem;
-        text-align: center;
-    }
+  .list-items:nth-child(1),
+  .list-items:nth-child(2) {
+    display: none;
+  }
 
-    .container-tabs {
-        padding: 18px 10px;
-        display: block;
-        margin-bottom: 20px;
-    }
+  .name {
+    font-size: 2rem;
+    text-align: center;
+  }
 
-    .container-text {
-        width: 100%;
-        margin: 0px;
-    }
+  .container-tabs {
+    padding: 18px 10px;
+    display: block;
+    margin-bottom: 20px;
+  }
 
-    .container-text p {
-        font-size: 20px;
-    }
+  .container-text {
+    width: 100%;
+    margin: 0px;
+  }
 
-    .container-text h2 {
-        display: none;
-    }
+  .container-text p {
+    font-size: 20px;
+  }
 
-    .container-title {
-        padding: .5rem;
-    }
+  .container-text h2 {
+    display: none;
+  }
 
-    .container-title h1 {
-        font-size: 25px;
-    }
+  .container-title {
+    padding: 0.5rem;
+  }
 
-    .carrer {
-        background: transparent;
-    }
+  .container-title h1 {
+    font-size: 25px;
+  }
 
-    /* Col */
+  .carrer {
+    background: transparent;
+  }
 
-    .col-5{
-        width: 100%;
-        height: auto;
-    }
+  /* Col */
 
-    /* Carrer */
+  .col-5 {
+    width: 100%;
+    height: auto;
+  }
 
-    .card-icon {
-        width: auto;
-        display: inline-block;
-    }
+  /* Carrer */
+
+  .card-icon {
+    width: auto;
+    display: inline-block;
+  }
+
+  .container-icons {
+    display: flex;
+    gap: 15px;
+  }
+
+  .container-cmg-soon {
+    display: flex;
+  }
+
+  .container-form {
+    gap: 0px 0px;
+  }
+
+  .container-icon-form {
+    display: flex;
+  }
+
+  .icon-linkedin {
+    width: unset;
+  }
+
+  .contact-icon {
+    width: 80px;
+  }
+
+  .container-tabs.projects {
+    background-color: unset;
+  }
 }
