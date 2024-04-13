@@ -11,6 +11,7 @@
     width: 65%;
     transition: .4s;
     border: 3px var(--color-light) solid;
+    overflow: hidden;
 }
 
 .profile-photo:hover {

@@ -33,7 +33,7 @@
 .container-icons {
     height: 90%;
     flex-wrap: wrap;
-    align-content: center;
+    /* align-content: center; */
     justify-content: center;
 }
 
